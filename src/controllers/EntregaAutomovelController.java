@@ -22,5 +22,8 @@ public class EntregaAutomovelController {
     public void terminaRegistoEntregaAutomovel () {
     }
 
+    public void setLocalEntrega (String local) {
+    }
+
 }
 
