@@ -1,0 +1,154 @@
+import java.util.List; 
+
+// <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+// #[regen=yes,id=DCE.B07D383F-16A3-B6BA-10FF-A0D67261ECB2]
+// </editor-fold> 
+public class ElaborarContratoController {
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.BFD6F4E4-4EE7-67E3-C440-BFAC7AE10A32]
+    // </editor-fold> 
+    public ElaborarContratoController () {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.A5633E31-EBE9-321F-8047-E4AE36761702]
+    // </editor-fold> 
+    public addCondutorAutorizado ( dados) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.4C366D35-6824-26D0-0B08-E63F8CA3A606]
+    // </editor-fold> 
+    public setDadosCart�oCredito ( dados) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.45122167-755A-36C3-4260-4F38843A83E9]
+    // </editor-fold> 
+    public assinaturaAutoriza��oTerminada () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.74204D28-D5EF-7300-C806-51ABB98F7360]
+    // </editor-fold> 
+    public List<GrupoAutomovel> getCatalogoGrupoAutomovel () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.1BD53F0E-AE06-9B16-C48B-D73845F98949]
+    // </editor-fold> 
+    public List<Automovel> getFrotaByGrupoAutomovel (GrupoAutomovel ga) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.77DFB192-6AE8-F40A-C61D-789EF2F8725F]
+    // </editor-fold> 
+    public setAutomovel (Automovel a) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.A13133A1-397E-B7AC-7A4E-234F629FF96D]
+    // </editor-fold> 
+    public setDataDevolucaoPrevista (Date ddp) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.196D29BF-9968-FE53-B0D8-2B8A29D54C7E]
+    // </editor-fold> 
+    public List<Servi�oAdicional> getCatalogoServicoAdicional () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.61BCAB5C-A04F-0887-9879-837CD3C00BBF]
+    // </editor-fold> 
+    public addServicoAdicional (Servi�oAdicional sa) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.35961FF9-CD13-B002-B52D-8B6766BD9202]
+    // </editor-fold> 
+    public List<LocalDevolu��o> getCatalogoLocalDevolucao () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.563C862C-5346-1F0E-16C5-7F0278E5DAC7]
+    // </editor-fold> 
+    public setLocalDevolucao (LocalDevolu��o ld) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.A2A26CCA-3ABF-51B7-661A-AD9F22972C4B]
+    // </editor-fold> 
+    public getValorTotalContrato () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.64551DBE-9424-1259-BADE-A616CC3F32BD]
+    // </editor-fold> 
+    public setDadosCliente ( dados) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.2A499550-2D5F-9BF3-5DC8-4B7ED0024648]
+    // </editor-fold> 
+    public getAutorizacaoDebitoCartaoCredito () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.66F93C3C-86E9-9EB3-B8E8-15790A83E580]
+    // </editor-fold> 
+    public ContratoAluguer getContratoAluguer () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.5D5A374C-DF5D-B70E-8E90-85CE192A560A]
+    // </editor-fold> 
+    public terminaElaboracaoContratoAluguer () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.3EF2C526-6C65-11C5-3C30-05242AB8111E]
+    // </editor-fold> 
+    public Date getDataValidadeADCC () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.3E8BCE9A-A3A7-38B8-1827-3DA821565E14]
+    // </editor-fold> 
+    public void getAutorizacaoDebitoCartaoCredito (float fValorADCC, Date dtValADCC, Date dtValCC, String numCC) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.390466D2-C75F-FFC3-0003-08909270DDFD]
+    // </editor-fold> 
+    public float getValorADCC () {
+        return 0.0f;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.9334686A-96D5-F4B7-5C57-EF05B2B02043]
+    // </editor-fold> 
+    private assinaturaContratoTerminada () {
+        return null;
+    }
+
+}
+

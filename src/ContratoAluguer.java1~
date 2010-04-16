@@ -1,0 +1,156 @@
+
+// <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+// #[regen=yes,id=DCE.D66ACAED-1B85-C5A0-ED91-80F264625291]
+// </editor-fold> 
+public class ContratoAluguer {
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.CD2A3EE9-88F4-1625-E2CC-9335565C9F7E]
+    // </editor-fold> 
+    private Automovel automovel;
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.74C34F56-97EE-B95C-670A-13116743EF1E]
+    // </editor-fold> 
+    public ContratoAluguer () {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.08716D43-9761-2F7C-C936-C4B1863ECDE8]
+    // </editor-fold> 
+    public setAutomovel (Automovel a) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.411E28EF-010B-48A0-69FB-FBF8015684A6]
+    // </editor-fold> 
+    public setDataDevolucaoPrevista (Date ddp) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.2ECC2956-FCFA-A60F-A78F-82AFBEB22F13]
+    // </editor-fold> 
+    public addServicoAdicional (Servi�oAdicional sa) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.C5C7B1A3-6FD5-CC4B-16E8-6851016E3469]
+    // </editor-fold> 
+    public setLocalDevolucao ( ld) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.CF841E27-8D74-EF4A-583E-2D10474A786F]
+    // </editor-fold> 
+    public float getValorTotalContrato () {
+        return 0.0f;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.A5E1CA72-2936-D156-CF34-0F18D6B5969D]
+    // </editor-fold> 
+    public setDadosCliente ( dados) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.431327ED-0BE5-2CFB-DB48-AA9ACBB83E7E]
+    // </editor-fold> 
+    public addCondutorAutorizado ( dados) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.D1137BA9-D3CB-5F60-79AC-01216E3AEE95]
+    // </editor-fold> 
+    public float getValorAutorizacaoDebito () {
+        return 0.0f;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.FAA6B9FF-99D6-EFEE-C82E-B75B3FC2155C]
+    // </editor-fold> 
+    public void setAutorizacaoCartaoCredito ( adcc1) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.4CB31008-CEFE-FF9D-26E9-DEE266570FBB]
+    // </editor-fold> 
+    public getAutoriza��oD�bitoCart�oCr�dito () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.C682561B-3C62-8654-3D0F-342328DAD0A6]
+    // </editor-fold> 
+    public Date getDataFimContrato () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.E1D22C72-2EE3-2ABB-1E6A-97A584A88549]
+    // </editor-fold> 
+    public Date getDataValidadeADCC () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.998C60D6-A487-20E2-A0AE-FB7865917DFA]
+    // </editor-fold> 
+    public Automovel getAutomovel () {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.287A46CC-B4F6-0B49-9149-4CF99B5B3E1F]
+    // </editor-fold> 
+    private addLinhaServicoAdicional (LinhaServicoAdicional lsa) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.BE6605FC-EDB8-8BB6-8F8D-A5A82B0BE6F7]
+    // </editor-fold> 
+    private addCondutorAutorizado (CondutorAutorizado ca) {
+        return null;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.EC65A0CF-45BB-2D12-E6DC-7C1AA3C5014E]
+    // </editor-fold> 
+    private int getDiasDuracaoContrato () {
+        return 0;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.38884CAC-5701-D4F7-99FB-1D20DE526A6E]
+    // </editor-fold> 
+    private void addValorLinhaServicoAdicional (float fLSA) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.02FCC15E-413F-7A70-1704-1C2D50785DCE]
+    // </editor-fold> 
+    private void addTotalLSAComTotalAutomovel (float fTotalAutomovel, float fTotalLSA) {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.B83AF269-DAE1-D6DA-CCC2-14903F55F19C]
+    // </editor-fold> 
+    private float calculateTotalAutomovel (float preco, int nDias) {
+        return 0.0f;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.E1836969-72B3-5BAC-F2A1-802657F80679]
+    // </editor-fold> 
+    private float getValorDi�rio () {
+        return 0.0f;
+    }
+
+}
+

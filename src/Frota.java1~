@@ -1,0 +1,22 @@
+import java.util.ArrayList; 
+
+// <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+// #[regen=yes,id=DCE.8B037880-FF09-02B8-2D0E-05EB225A9E21]
+// </editor-fold> 
+public class Frota {
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.BD5436B8-57A5-1020-FBE6-DC71562BAB8F]
+    // </editor-fold> 
+    public Frota () {
+    }
+
+    // <editor-fold defaultstate="collapsed" desc=" UML Marker "> 
+    // #[regen=yes,id=DCE.F70BCEAE-EB8D-0B35-8EE2-780B408D854D]
+    // </editor-fold> 
+    public ArrayList<Automovel> getFrotaByGrupoAutom�vel ( ga) {
+        return null;
+    }
+
+}
+
