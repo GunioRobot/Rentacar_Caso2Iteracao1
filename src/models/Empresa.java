@@ -11,22 +11,6 @@ public class Empresa {
         return null;
     }
 
-    public getCat�logoGrupoAutom�vel () {
-        return null;
-    }
-
-    public List<LocalDevolu��o> getCatalogoLocalDevolucao () {
-        return null;
-    }
-
-    public getRegistoContratoAluguer () {
-        return null;
-    }
-
-    public List<Servi�oAdicional> getCatalogoServicoAdicional () {
-        return null;
-    }
-
     public Entrega criaEntregaAutomovel () {
         return null;
     }
