@@ -17,6 +17,15 @@ public class Automovel {
     public Automovel () {
     }
 
+    public Automovel(String matricula, String cor, int numKM, String estadoFisico,
+            int qtdCombustivel) {
+        set_strMatricula(matricula);
+        set_strCor(cor);
+        set_numKM(numKM);
+        set_estadoFisico(estadoFisico);
+        set_qtdCombustivel(qtdCombustivel);
+    }
+
     public String get_estadoFisico () {
         return m_estadoFisico;
     }
@@ -30,7 +39,7 @@ public class Automovel {
     }
 
     public void set_numKM (int val) {
-        this.m_numKM = val;
+        this.m_numKM = val < 0 ? 0 : val;
     }
 
     public int get_qtdCombustivel () {
@@ -38,7 +47,7 @@ public class Automovel {
     }
 
     public void set_qtdCombustivel (int val) {
-        this.m_qtdCombustivel = val;
+        this.m_qtdCombustivel = val < 0 ? 0 : val;
     }
 
     public String get_strCor () {
@@ -57,5 +66,15 @@ public class Automovel {
         this.m_strMatricula = val;
     }
 
+    @Override
+    public String toString() {
+        String str =
+                "Matricula: " + this.get_strMatricula() +
+                "\nCor: " + this.get_strCor() +
+                "\nNum KM: " + this.get_numKM() +
+                "\nEstado fisico: " + this.get_estadoFisico() +
+                "\nQtd combustivel: " + this.get_qtdCombustivel();
+        return str;
+    }
 }
 
