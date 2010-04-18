@@ -36,4 +36,3 @@ public class MenuUI {
         } while (!opcao.equals("0"));
     }
 }
-

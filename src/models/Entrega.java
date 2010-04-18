@@ -1,7 +1,5 @@
 package models;
 
-
-
 public class Entrega {
 
     private String m_localEntrega;

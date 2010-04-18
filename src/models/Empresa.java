@@ -37,7 +37,8 @@ public class Empresa {
 
     public void addEntregaAutomovel (Entrega ea) {
         m_listEntregaAutomovel.add(ea);
-        Logger.getLogger("Rent-a-car").log(Level.INFO, "Entrega Automovel adicionada ao registo." );
+        Logger.getLogger("Rent-a-car").log(Level.INFO,
+                "Entrega Automovel adicionada ao registo." );
     }
 
     private void fillInContratoAluguer() {

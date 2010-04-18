@@ -20,6 +20,8 @@ public class EntregaAutomovelUI {
         
         iniciaEntregaAutomovel();
 
+        // list de clientes, para efeitos de demonstracao
+        System.out.println("\nNome dos clientes disponiveis:\nJose Martins\nAntonio Soares\n");
         // Requer nome do cliente
         String nomeCliente;
         System.out.println("Indique nome do cliente ou ENTER para cancelar.");
